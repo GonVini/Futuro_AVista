@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futuro à Vista – Protótipo Interativo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="hero__eyebrow">Protótipo conceitual</p>
+            <h1>Futuro à Vista</h1>
+            <p class="hero__lead">
+                Uma plataforma com realidade aumentada e inteligência artificial para que estudantes vivenciem profissões antes de escolher seu caminho.
+            </p>
+            <div class="hero__cta">
+                <a href="#fluxo" class="button button--primary">Explorar protótipo</a>
+                <a href="#beneficios" class="button button--ghost">Conheça os diferenciais</a>
+            </div>
+        </div>
+        <div class="hero__mockup" aria-hidden="true">
+            <div class="device-frame">
+                <img src="images/mockup-ar-lab.svg" alt="Simulação em realidade aumentada" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="problema" class="section section--grid">
+            <div>
+                <h2>Problema</h2>
+                <p>
+                    Jovens escolhem cursos “no escuro”, sem vivenciar o dia a dia das profissões. Isso gera trocas constantes de faculdade,
+                    frustração e falta de preparo para as carreiras emergentes.
+                </p>
+            </div>
+            <div>
+                <h3>Consequências</h3>
+                <ul class="list">
+                    <li>Perda de tempo e investimento em cursos que não conectam com o estudante.</li>
+                    <li>Desmotivação por expectativas desalinhadas.</li>
+                    <li>Desconhecimento de habilidades exigidas pelas profissões do futuro.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="solucao" class="section section--highlight">
+            <div class="section__inner">
+                <h2>Como o Futuro à Vista funciona</h2>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <h3>1. Escolha a área</h3>
+                        <p>O estudante abre o app, escolhe uma área de interesse e prepara o espaço para a experiência.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>2. Realidade aumentada</h3>
+                        <p>Um ambiente profissional surge sobre a superfície detectada, permitindo interações gamificadas em 3D.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>3. Avaliação inteligente</h3>
+                        <p>A IA avalia as decisões tomadas, identifica padrões de raciocínio e sugere próximos passos personalizados.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="fluxo" class="section">
+            <div class="section__header">
+                <h2>Fluxo do protótipo</h2>
+                <p>Visualize as telas principais que contam a jornada do estudante, do onboarding à recomendação de trilhas.</p>
+            </div>
+            <div class="prototype">
+                <div class="prototype__screen">
+                    <div class="prototype__frame">
+                        <img id="screen-image" src="images/screen-1.svg" alt="Tela do protótipo Futuro à Vista" />
+                    </div>
+                </div>
+                <div class="prototype__controls">
+                    <button class="chip chip--active" data-screen="0">Tela inicial</button>
+                    <button class="chip" data-screen="1">Carregando AR</button>
+                    <button class="chip" data-screen="2">Simulação</button>
+                    <button class="chip" data-screen="3">Feedback IA</button>
+                    <button class="chip" data-screen="4">Trilha sugerida</button>
+                </div>
+                <div class="prototype__description" id="screen-description">
+                    <h3>Tela inicial</h3>
+                    <p>Seleção rápida de áreas para explorar experiências imersivas de 2 a 5 minutos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ar-demo" class="section section--grid">
+            <div>
+                <h2>Experiência em realidade aumentada</h2>
+                <p>
+                    A simulação utiliza reconhecimento de superfície para projetar ambientes profissionais sobre a mesa do usuário.
+                    Elementos interativos ficam flutuando com labels de instruções, indicando tarefas e ferramentas.
+                </p>
+                <p>
+                    O protótipo conceitual demonstra essa dinâmica através de camadas sobrepostas e animações sutis, simulando as interações em 3D.
+                </p>
+            </div>
+            <div class="ar-demo__mockup">
+                <div class="ar-overlay">
+                    <span class="tag tag--pulse">Microscópio</span>
+                    <span class="tag" style="top: 65%; left: 18%;">Centrífuga</span>
+                    <span class="tag" style="top: 28%; left: 70%;">Painel de dados</span>
+                    <div class="ar-reticle"></div>
+                </div>
+                <img src="images/mockup-table.svg" alt="Mesa com ambiente AR sobreposto" />
+            </div>
+        </section>
+
+        <section id="beneficios" class="section section--highlight">
+            <div class="section__inner">
+                <h2>Quatro grandes benefícios</h2>
+                <div class="benefits">
+                    <article class="benefit-card">
+                        <h3>Autoconhecimento profissional</h3>
+                        <p>Vivências reais ajudam o estudante a identificar preferências antes de investir em uma carreira.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Aprendizagem experiencial</h3>
+                        <p>O foco está na prática: o estudante simula tarefas-chave e entende o cotidiano da profissão.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Inclusão e acesso</h3>
+                        <p>Experiências acessíveis via smartphone democratizam o acesso a orientações vocacionais.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Preparação para o futuro</h3>
+                        <p>Novas carreiras e competências são atualizadas constantemente, alinhadas às demandas do mercado.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="ia" class="section section--grid">
+            <div>
+                <h2>Onde a IA agrega valor</h2>
+                <ul class="list">
+                    <li><strong>Recomendações de áreas:</strong> análise de interações e escolhas durante as simulações.</li>
+                    <li><strong>Trilhas personalizadas:</strong> sugestões de cursos, mentorias e materiais com base no perfil.</li>
+                    <li><strong>Leitura emocional (opcional):</strong> ajuste dinâmico da experiência de acordo com engajamento e confiança.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Dados coletados</h3>
+                <p>Tempo de resposta, precisão das ações, preferências de ferramentas e feedback emocional (quando autorizado).</p>
+                <h3>Saídas geradas</h3>
+                <p>Recomendações de carreiras, níveis de afinidade e roadmap de desenvolvimento personalizado.</p>
+            </div>
+        </section>
+
+        <section id="call-to-action" class="section section--center">
+            <h2>Pronto para dar vida ao Futuro à Vista?</h2>
+            <p>Use este protótipo em apresentações, valide com estudantes e educadores e evolua para um MVP funcional.</p>
+            <a href="#fluxo" class="button button--primary">Revisitar telas</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Protótipo conceitual criado para demonstração no pitch do Futuro à Vista.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

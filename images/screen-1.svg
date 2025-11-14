@@ -1,0 +1,23 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="720" rx="48" fill="url(#grad1)"/>
+  <text x="50%" y="120" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="26" font-weight="700">Escolha uma área</text>
+  <g transform="translate(60,170)">
+    <rect width="240" height="80" rx="20" fill="rgba(15,23,42,0.55)" stroke="rgba(124,58,237,0.4)"/>
+    <text x="120" y="50" text-anchor="middle" fill="#E0E7FF" font-family="Outfit" font-size="20">Saúde</text>
+  </g>
+  <g transform="translate(60,270)">
+    <rect width="240" height="80" rx="20" fill="rgba(15,23,42,0.4)"/>
+    <text x="120" y="50" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="20">Tecnologia</text>
+  </g>
+  <g transform="translate(60,370)">
+    <rect width="240" height="80" rx="20" fill="rgba(15,23,42,0.4)"/>
+    <text x="120" y="50" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="20">Design</text>
+  </g>
+  <text x="50%" y="520" text-anchor="middle" fill="#94A3B8" font-family="Outfit" font-size="14">Experiências de 2 a 5 min em RA</text>
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="360" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+</svg>

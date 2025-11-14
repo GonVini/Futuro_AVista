@@ -1,0 +1,23 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="720" rx="48" fill="url(#grad3)"/>
+  <text x="50%" y="110" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="24" font-weight="600">Simulação biomédica</text>
+  <g transform="translate(40,160)">
+    <rect width="280" height="220" rx="28" fill="rgba(15,23,42,0.7)" stroke="rgba(124,58,237,0.45)"/>
+    <circle cx="140" cy="110" r="70" fill="rgba(124,58,237,0.3)" />
+    <rect x="120" y="80" width="40" height="70" rx="14" fill="#111827" />
+    <rect x="80" y="160" width="120" height="18" rx="9" fill="#7c3aed" />
+    <text x="140" y="200" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Adicionar reagente</text>
+  </g>
+  <g transform="translate(60,400)">
+    <rect width="240" height="40" rx="12" fill="rgba(148,163,184,0.16)" />
+    <rect width="150" height="40" rx="12" fill="#7c3aed" />
+    <text x="120" y="26" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="15">Progresso 62%</text>
+  </g>
+  <text x="50%" y="480" text-anchor="middle" fill="#E0E7FF" font-family="Outfit" font-size="16">Arraste a pipeta até a amostra</text>
+  <defs>
+    <linearGradient id="grad3" x1="0" y1="0" x2="360" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

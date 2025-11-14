@@ -1,0 +1,23 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="720" rx="48" fill="url(#grad4)"/>
+  <text x="50%" y="120" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="24" font-weight="600">Feedback da IA</text>
+  <g transform="translate(50,170)">
+    <rect width="260" height="160" rx="24" fill="rgba(15,23,42,0.65)" stroke="rgba(124,58,237,0.45)"/>
+    <text x="130" y="60" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="16" font-weight="600">Perfil analítico</text>
+    <text x="130" y="100" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Atenção a detalhes: 92%</text>
+    <text x="130" y="130" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Tomada de decisão: 88%</text>
+  </g>
+  <g transform="translate(50,360)">
+    <rect width="260" height="160" rx="24" fill="rgba(15,23,42,0.55)"/>
+    <text x="130" y="50" text-anchor="middle" fill="#E0E7FF" font-family="Outfit" font-size="16">Profissões recomendadas</text>
+    <text x="130" y="90" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Analista de Dados</text>
+    <text x="130" y="120" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Engenheiro Biomédico</text>
+    <text x="130" y="150" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="14">Técnico em Pesquisa</text>
+  </g>
+  <defs>
+    <linearGradient id="grad4" x1="0" y1="0" x2="360" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0b1120"/>
+    </linearGradient>
+  </defs>
+</svg>

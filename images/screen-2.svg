@@ -1,0 +1,17 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="720" rx="48" fill="url(#grad2)"/>
+  <text x="50%" y="120" text-anchor="middle" fill="#F8FAFC" font-family="Outfit" font-size="24" font-weight="600">Prepare o ambiente</text>
+  <g transform="translate(80,200)">
+    <rect width="200" height="200" rx="32" fill="rgba(15,23,42,0.6)" stroke="rgba(124,58,237,0.5)" stroke-dasharray="10 14"/>
+    <circle cx="100" cy="100" r="60" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 10" fill="rgba(124,58,237,0.25)"/>
+    <text x="100" y="110" text-anchor="middle" fill="#E0E7FF" font-family="Outfit" font-size="14">Superfície detectada</text>
+  </g>
+  <text x="50%" y="450" text-anchor="middle" fill="#CBD5F5" font-family="Outfit" font-size="16">Aponte a câmera para uma superfície plana</text>
+  <text x="50%" y="490" text-anchor="middle" fill="#94A3B8" font-family="Outfit" font-size="14">Mantenha boa iluminação para melhor rastreamento</text>
+  <defs>
+    <linearGradient id="grad2" x1="0" y1="0" x2="360" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>
